@@ -23,14 +23,16 @@ It provides an easy-to-use control panel for starting, stopping, and restarting 
 1. Clone or download the repository  
 2. Give execute permissions to the scripts:
    ```bash
-   sudo apt update
+  3 sudo apt update
 sudo apt install git curl wget sudo nginx openssl -y
 
-git clone https://github.com/faster-tafi/ssh-ws-tafi.git
+4 git clone https://github.com/faster-tafi/ssh-ws-tafi.git
 cd ssh-ws-tafi
 
-sudo ./setup.sh
-./panel.sh
+5  sudo ./setup.sh
+
+
+6  ./panel.sh
 
 
 
